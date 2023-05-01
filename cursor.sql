@@ -1,5 +1,5 @@
 -- CURSOR que cuenta todos los libros escritos por cada autor
-DELIMITER $$ CREATE PROCEDURE contar_libros_autor () BEGIN
+CREATE PROCEDURE contar_libros_autor () BEGIN
 DECLARE autor_id INT;
 DECLARE autor_name VARCHAR(255);
 DECLARE total_libros INT;
@@ -31,6 +31,6 @@ FROM autor_cursor INTO autor_id,
     autor_name;
 END WHILE;
 CLOSE autor_cursor;
-END $$ DELIMITER;
+END;
 -- Ejecutar PROCEDMIENTO
 -- CALL contar_libros_autor();

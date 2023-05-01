@@ -56,3 +56,25 @@ VALUES (
         3,
         0
     );
+-- Insertar Libros
+-- Insertar Libros
+INSERT INTO libros (titulo, autor_id, biblioteca_id)
+VALUES ('Cien años de soledad', 1, 1);
+INSERT INTO libros (titulo, autor_id, biblioteca_id)
+VALUES ('El Aleph', 2, 2);
+INSERT INTO libros (titulo, autor_id, biblioteca_id)
+VALUES ('La ciudad y los perros', 3, 3);
+INSERT INTO libros (titulo, autor_id, biblioteca_id)
+VALUES ('El retrato de Dorian Gray', 1, 2);
+INSERT INTO libros (titulo, autor_id, biblioteca_id)
+VALUES ('1984', 2, 1);
+INSERT INTO libros (titulo, autor_id, biblioteca_id)
+VALUES ('La metamorfosis', 3, 3);
+INSERT INTO libros (titulo, autor_id, biblioteca_id)
+VALUES ('Mujercitas', 4, 4);
+INSERT INTO libros (titulo, autor_id, biblioteca_id)
+VALUES (
+        'El ingenioso hidalgo Don Quijote de la Mancha',
+        5,
+        5
+    );
