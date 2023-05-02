@@ -223,5 +223,5 @@ Query OK, 10 rows affected (0,006 sec)
 
 ```
 
-Además para automatizar el procedimiento anteriormente creado hemos creado un trigger [trigger.sql](/trigger.sql) que ejecuta el procedimiento para actualizar el total de libros cada vez que se elimina añade o actualiza un libro.
+Además para automatizar el procedimiento anteriormente creado hemos creado un trigger [trigger.sql](/trigger.sql) que ejecuta el procedimiento para actualizar el total de libros cada vez que se elimina o añade un libro.
 
